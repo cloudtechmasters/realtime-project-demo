@@ -9,6 +9,7 @@ pipeline{
             steps {
                 echo 'Hello, Maven'
                 sh 'mvn --version'
+                sh 'mvn clean package'
             }
         }
     }
